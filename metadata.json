@@ -14,12 +14,10 @@
         "License": "GPL",
         "Name": "Configurable Button",
         "Name[en_GB]": "Configurable Button",
-        "ServiceTypes": [
-            "Plasma/Applet"
-        ],
         "Version": "0.2.0",
         "Website": "https://github.com/pmarki/plasmoid-button"
     },
+    "KPackageStructure": "Plasma/Applet",
     "X-Plasma-API-Minimum-Version": "6.0",
     "X-Plasma-API": "declarativeappletscript",
     "X-Plasma-MainScript": "ui/main.qml"
