@@ -6,7 +6,7 @@ and to monitor status by status script.
 
 ## Installation
 
-Install this plasmoid using `plasmapkg2 --install .` in the plasmoid directory.
+Install this plasmoid using `kpackagetool6 --type Plasma/Applet --install .` in the plasmoid directory.
 
 ## Configuration
 The plasmoid can by configured in the settings menu:
