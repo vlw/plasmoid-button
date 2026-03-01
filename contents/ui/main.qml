@@ -122,14 +122,15 @@ PlasmoidItem {
         PlasmaComponents.Label {
             id: commandNameLabel
             text: commandName
-        }
-        Item {
-            Layout.fillWidth: true
+            visible: commandName !== ""
+            Layout.alignment: Qt.AlignVCenter
         }
         Kirigami.Icon {
             id: icon
             Layout.fillHeight: true
-            Layout.fillWidth: true
+            Layout.minimumWidth: height
+            Layout.preferredWidth: height
+            Layout.maximumWidth: height
             source: checked ? plasmoid.configuration.iconOn : plasmoid.configuration.iconOff
             MouseArea {
                 id: mouseArea
